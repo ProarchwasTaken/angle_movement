@@ -6,7 +6,7 @@ import math
 class Player:
     # Runs on instance initialization
     def __init__(self, x, y, width, height):
-        self.rect = pg.Rect(x, y, width, height)
+        self.rect = pg.FRect(x, y, width, height)
         # Player angle
         self.angle = 0
         # Sets up unique prevTime
